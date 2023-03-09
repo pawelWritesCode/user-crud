@@ -14,8 +14,9 @@ up:
 down:
 	docker compose down
 
+# logs show last 100 lines of logs to stdout from server container
 logs:
-	docker logs -n 100 -f CONTAINER_NAME
+	docker logs -n 100 -f ${CONTAINER_NAME}
 
 # build builds image as defined in Dockerfile
 build:

@@ -19,9 +19,6 @@
 	},
 	"servers": [
 		{
-			"url": "http://10.5.0.5:1234"
-		},
-		{
 			"url": "http://localhost:1234"
 		}
 	],
@@ -464,10 +461,10 @@
 	"components": {
 		"schemas": {
 			"GETUser": {
-				"$ref": "./schema/user/user.json"
+				"$ref": "./schema/user/response/user.json"
 			},
 			"POSTUser": {
-				"$ref": "./schema/user/post_user.json"
+				"$ref": "./schema/user/request/user.json"
 			},
 			"general_error": {
 				"$ref": "./schema/general_error.json"

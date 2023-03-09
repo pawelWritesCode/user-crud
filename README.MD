@@ -19,8 +19,19 @@ To stop containers
 make down
 ```
 
+To run only server container
+```shell
+make build
+make run
+```
+
+After finished work
+```shell
+make rm
+```
+
 ### Go CLI
 From main project directory
 ```
-go run cmd/user_crud/main.go cmd/user_crud/di.go
+go run cmd/user-crud/main.go cmd/user-crud/di.go
 ```
